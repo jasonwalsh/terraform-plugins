@@ -9,7 +9,7 @@ See [action.yml](action.yml)
 ```yaml
 steps:
   - uses: actions/checkout@master
-  - uses: jasonwalsh/terraform-plugins@v1.0.0
+  - uses: jasonwalsh/terraform-plugins@v1
     with:
       plugins: |
         https://github.com/gavinbunney/terraform-provider-kubectl/releases/download/v1.4.2/terraform-provider-kubectl-linux-amd64
