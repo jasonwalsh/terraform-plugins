@@ -1,0 +1,25 @@
+{
+  "name": "terraform-plugins",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jasonwalsh/terraform-plugins.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jasonwalsh/terraform-plugins/issues"
+  },
+  "homepage": "https://github.com/jasonwalsh/terraform-plugins#readme",
+  "dependencies": {
+    "@actions/core": "^1.2.4",
+    "@actions/exec": "^1.0.4",
+    "@actions/io": "^1.0.2"
+  }
+}

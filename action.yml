@@ -1,0 +1,10 @@
+description: Downloads custom Terraform plugins
+inputs:
+  plugins:
+    default: ""
+    description: A list of plugin URLs
+    required: false
+name: Terraform Plugins
+runs:
+  main: index.js
+  using: node12

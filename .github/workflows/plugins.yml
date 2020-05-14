@@ -1,0 +1,15 @@
+jobs:
+  plugins:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v1
+      - name: Install Terraform plugins
+        uses: jasonwalsh/terraform-plugins@v1.0.0
+        with:
+          plugins: >
+            https://github.com/gavinbunney/terraform-provider-kubectl/releases/download/v1.4.2/terraform-provider-kubectl-linux-amd64
+      - run: stat ~/.terraform.d/plugins/terraform-provider-kubectl
+name: Plugins
+"on":
+  - push
