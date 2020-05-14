@@ -6,6 +6,8 @@ This action installs third-party [Terraform Plugins](https://www.terraform.io/do
 
 See [action.yml](action.yml)
 
+The action automatically creates the user plugins directory `~/.terraform.d/plugins`.
+
 ```yaml
 steps:
   - uses: actions/checkout@master
