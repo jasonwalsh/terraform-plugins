@@ -15,6 +15,8 @@ steps:
         https://github.com/gavinbunney/terraform-provider-kubectl/releases/download/v1.4.2/terraform-provider-kubectl-linux-amd64
 ```
 
+**Note:** GitHub Actions inputs do not support arrays. Make sure the `plugins` input is a list of strings separated by a newline.
+
 # License
 
 [MIT License](LICENSE)
