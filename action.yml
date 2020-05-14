@@ -1,3 +1,6 @@
+branding:
+  color: blue
+  icon: download
 description: Downloads custom Terraform plugins
 inputs:
   plugins:
